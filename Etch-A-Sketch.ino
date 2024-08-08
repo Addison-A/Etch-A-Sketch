@@ -1,15 +1,15 @@
 //  
-//  Addy Aque
+//  Addison Aque
 //
 //  August 9, 2024
 //
 //  With an MPU6050 accelerometer, a TFT_HX8357 LCD Screen, Two Rotary Encoders, and several Push-Buttons, this program
 //    functions as an Etch-A-Sketch. There are two game modes:
 //    1) Etch-A-Sketch: Using knobs to move the cursor, a button which
-//      allows fo rerasing, as well as an the accelerometer which erases the screen.
+//      allows for erasing, as well as the accelerometer which erases the screen.
 //    2) Tilt-A-Sketch: By tilting the MPU6050, the angle determines the direction of movement, and it erases with a
 //      harder thud downwards against a flat surface.
-//    3) DOOM 1993 (in-progress): I plan to make DOOM a playable game using the inputs.
+//    3) DOOM 1993 (in progress): I plan to make DOOM a playable game using the inputs.
 //
 //***********
 // Libraries
@@ -46,7 +46,7 @@ int16_t h = 320;
 int16_t w = 480;
 
 
-// Value to determine size of PX readings array
+// Value to determine the size of PX readings array
 const int numReadingsPX = 5;
 
 int readingsPX[numReadingsPX];  // the readings from the analog input
@@ -56,7 +56,7 @@ int averagePX = 0;            // the average
 
 int potX = A0;
 
-// Value to determine size of PY readings array
+// Value to determine the size of PY readings array
 const int numReadingsPY = 5;
 
 int readingsPY[numReadingsPY];  // the readings from the analog input
